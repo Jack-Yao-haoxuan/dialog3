@@ -1,28 +1,28 @@
 package DiaLogApp;
 
 /**
- * 错误码
+ * e
  *
  * @author oldwai
  */
 public enum ErrorCode {
 
     SUCCESS(0, "ok"),
-    PARAMS_ERROR(40000, "请求参数错误"),
-    NOT_LOGIN_ERROR(40100, "未登录"),
-    NO_AUTH_ERROR(40101, "无权限"),
-    NOT_FOUND_ERROR(40400, "请求数据不存在"),
-    FORBIDDEN_ERROR(40300, "禁止访问"),
-    SYSTEM_ERROR(50000, "系统内部异常"),
-    OPERATION_ERROR(50001, "操作失败");
+    PARAMS_ERROR(40000, "1"),
+    NOT_LOGIN_ERROR(40100, "1"),
+    NO_AUTH_ERROR(40101, "1"),
+    NOT_FOUND_ERROR(40400, "1"),
+    FORBIDDEN_ERROR(40300, "1"),
+    SYSTEM_ERROR(50000, "1"),
+    OPERATION_ERROR(50001, "1");
 
     /**
-     * 状态码
+     * e
      */
     private final int code;
 
     /**
-     * 信息
+     * e
      */
     private final String message;
 
